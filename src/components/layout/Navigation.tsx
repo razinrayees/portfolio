@@ -1,11 +1,28 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Logo } from '../ui/Logo';
-import { NAVIGATION_ITEMS } from '../../lib/constants';
 import { scrollToSection } from '../../lib/utils';
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const path = window.location.pathname;
+  
+  // Different navigation items based on current page
+  const navigationItems = path === '/mail' 
+    ? [
+        { label: 'Home', href: '#' },
+        { label: 'About', href: '#about' },
+        { label: 'Features', href: '#features' },
+        { label: 'Process', href: '#process' },
+        { label: 'Contact', href: '#contact' }
+      ]
+    : [
+        { label: 'Home', href: '#' },
+        { label: 'About', href: '#about' },
+        { label: 'Projects', href: '#projects' },
+        { label: 'Certificates', href: '#certificates' },
+        { label: 'Contact', href: '#contact' }
+      ];
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
@@ -30,7 +47,7 @@ export function Navigation() {
           <div className="absolute top-full left-0 w-full bg-white border-b border-gray-200 py-4">
             <div className="max-w-7xl mx-auto px-6">
               <div className="flex flex-col space-y-4">
-                {NAVIGATION_ITEMS.map((item) => (
+                {navigationItems.map((item) => (
                   <a 
                     key={item.href}
                     href={item.href} 
@@ -52,7 +69,7 @@ export function Navigation() {
           onClick={handleClick}
           className="px-6 py-2 bg-black text-white hover:bg-black/90 transition-colors"
         >
-          CONTACT
+          {path === '/mail' ? 'GET QUOTE' : 'CONTACT'}
         </a>
       </div>
     </nav>
