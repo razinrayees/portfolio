@@ -15,7 +15,7 @@ export function ServiceAbout() {
             Instead of <span className="font-bold tracking-[-0.06em]">yourname@gmail.com</span>, imagine having <span className="font-bold tracking-[-0.06em]">hello@yourbusiness.com</span> - it instantly makes you look more <span className="font-bold tracking-[-0.06em]">professional and established</span>.
           </p>
           <p>
-            I help <span className="font-bold tracking-[-0.06em]">startups</span>, <span className="font-bold tracking-[-0.06em]">small businesses</span>, and <span className="font-bold tracking-[-0.06em]">professionals</span> set up custom domain emails using <span className="font-bold tracking-[-0.06em]">Zoho Mail</span> - a reliable, secure platform. One-time setup, lifetime use, <span className="font-bold tracking-[-0.06em]">just ₹199</span>
+            I help <span className="font-bold tracking-[-0.06em]">startups</span>, <span className="font-bold tracking-[-0.06em]">small businesses</span>, and <span className="font-bold tracking-[-0.06em]">professionals</span> set up custom domain emails using <span className="font-bold tracking-[-0.06em]">Zoho Mail</span> - a reliable, secure platform. One-time setup, no recurring fees, <span className="font-bold tracking-[-0.06em]">just ₹199</span>
           </p>
         </div>
       </div>
