@@ -152,7 +152,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Website: [razinrayees.com](https://razinrayees.com)
 - LinkedIn: [@razinrayees](https://linkedin.com/in/razinrayees)
 - GitHub: [@razinrayees](https://github.com/razinrayees)
-- Email: razin@razinrayees.com
 
 ## 🙏 Acknowledgments
 
