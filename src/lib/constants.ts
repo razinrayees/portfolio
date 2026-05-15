@@ -2,10 +2,10 @@ export const SITE_CONFIG = {
   name: 'Razin Rayees',
   title: 'Razin Rayees - CS Student & Developer',
   description: 'CS student passionate about putting my skills to use. Explore my projects, certificates, and get in touch.',
-  url: 'https://razinrayees.com',
+  url: 'https://razin.in',
   author: {
     name: 'Razin Rayees',
-    email: 'razin@razinrayees.com',
+    email: 'razin.rayeesk@gmail.com',
     linkedin: 'https://linkedin.com/in/razinrayees',
     github: 'https://github.com/razinrayees'
   }
