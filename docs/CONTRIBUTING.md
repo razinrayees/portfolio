@@ -81,7 +81,6 @@ For feature requests:
 ## 📞 Questions?
 
 Feel free to open an issue for questions or reach out via:
-- Email: razin@razinrayees.com
 - LinkedIn: [@razinrayees](https://linkedin.com/in/razinrayees)
 
 Thank you for contributing! 🎉
